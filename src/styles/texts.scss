@@ -1,0 +1,44 @@
+@use "variables";
+
+div,
+p,
+h1,
+h2,
+a,
+span,
+strong {
+  font-family: "Courier Prime", monospace;
+}
+
+.link {
+  display: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 600;
+  color: variables.$blue;
+}
+
+span,
+a,
+h1,
+h2,
+p {
+  text-align: left;
+}
+
+// Text sizes
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  font-size: 14px;
+}

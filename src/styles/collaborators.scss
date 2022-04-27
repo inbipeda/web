@@ -1,0 +1,9 @@
+@use "variables";
+
+.collaborators {
+  .collaborator {
+    .who {
+      background-color: variables.$green;
+    }
+  }
+}

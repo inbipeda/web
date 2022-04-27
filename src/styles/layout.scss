@@ -1,0 +1,34 @@
+@use "variables";
+
+.grid {
+  > div {
+    background-color: white;
+  }
+  display: grid;
+  @media screen and (min-width: 859px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-first {
+    grid-column: 1 / -1;
+  }
+}
+
+.sides {
+  padding: 0 variables.$basePadding;
+  width: calc(100% - #{variables.$basePadding * 2});
+}
+
+.bottom-l {
+  margin-bottom: variables.$basePadding;
+}
+
+.bottom {
+  margin-bottom: variables.$basePadding/2;
+}
+
+.bottom-s {
+  margin-bottom: variables.$basePadding/3;
+}
