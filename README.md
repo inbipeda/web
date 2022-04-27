@@ -1,5 +1,5 @@
-# Trifur Web
-Página web del Colectivo Trifur.
+# inbipeda
+Página web de InBipeda.
 
 
 2021. Córdoba, Argentina.
