@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ColectivoTrifur.github.io/trifurweb",
-  "name": "trifurweb",
+  "homepage": "https://inbipeda.github.io/web",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
